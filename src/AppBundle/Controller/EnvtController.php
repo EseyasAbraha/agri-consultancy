@@ -13,9 +13,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
 /**
- * Description of EnvtController
+ * Description of Environmental tController
  *
- * @author abrah
+ * @author Eseyas Abraha
  */
 class EnvtController extends Controller{
     //put your code here
@@ -25,12 +25,11 @@ class EnvtController extends Controller{
     public function showAction(){
         
         
-        return $this->render('envt_consultancy/show.html.twig');
+        return $this->render('consultancy/environment_page.html.twig');
         
         
+        }
 }
-
-    }
 
 
   
