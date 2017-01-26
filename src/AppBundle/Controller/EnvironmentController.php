@@ -17,7 +17,7 @@ use Symfony\Component\HttpFoundation\Response;
  *
  * @author Eseyas Abraha
  */
-class EnvtController extends Controller{
+class EnvironmentController extends Controller{
     //put your code here
     /**
      * @Route("/environment")
